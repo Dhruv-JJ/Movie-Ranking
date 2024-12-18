@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOVIE RANKING</title>
+    <style>
+        body {
+            background-color: #282c34;
+            color: #fff;
+            font-family: 'Playfair Display', serif;
+            margin: 0;
+        }
+
+        h1 {
+            text-align: center;
+            color: #e6e6e6;
+            margin-bottom: 20px;
+            font-size: 2.5rem;
+        }
+
+        h2 {
+            text-align: center;
+            color: #ccc;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            background-color: #333;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            margin-top: 5px;
+            color: #aaa;
+        }
+
+        img {
+            display: block;
+            margin: 10px auto;
+            width: 100%;
+            max-width: 200px;
+            border-radius: 5px;
+        }
+
+        .spoiler-text {
+            font-family: monospace;
+            font-size: 0.9rem;
+            color: #7CFC00; /* Color for spoiler text */
+            margin-top: 10px;
+        }
+
+        .spoiler-title {
+            color: #999; /* Slightly different color for "The Spoiler:" */
+        }
+
+        .fun-fact {
+            color: #f0c808; /* Color for "Fun Fact:" */
+            font-weight: bold;
+            margin-top: 15px;
+        }
+        footer {
+            background-color: #222;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        @media screen and (max-width: 768px) {
+            li {
+                font-size: 1.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Best movies according to Dhruv</h1>
+    <h2>My top 3 movies</h2>
+    <hr>
+
+    <ul>
+        <li>
+            <h3>Interstellar</h3>
+            <p>The movie covers the full range of emotions.</p>
+            <img src="./interstellar.jpg" alt="Interstellar">
+            <p class="spoiler-title">The Spoiler:</p>
+            <p class="spoiler-text">The beings guiding Cooper throughout his mission were actually his future self, evolved into a higher dimension, manipulating time to ensure humanity's survival.</p>
+            <p class="fun-fact">Fun Fact:</p>
+            <p>Christopher Nolan consulted with physicist Kip Thorne on the scientific accuracy of the film, leading to new scientific discoveries about black holes.</p> 
+        </li>
+
+        <li>
+            <h3>In Time</h3>
+            <p>Explores Social Inequality, Greed, And The Value Of Time.</p>
+            <img src="./In Time.jpg" alt="In Time">
+            <p class="spoiler-title">The Spoiler:</p>
+            <p class="spoiler-text">When Will Salas Inherits A Lifetime Of Time, He Becomes A Target For The Wealthy Who Will Stop At Nothing To Reclaim Their Stolen Immortality.</p>
+            <p class="fun-fact">Fun Fact:</p>
+            <p>The film explores themes of social and economic inequality, drawing parallels to real-world issues of wealth distribution and access to resources.</p>
+        </li>
+
+        <li>
+            <h3>The Martian</h3>
+            <p>Features Thrilling Sequences, Including Space Travel And A Daring Rescue Mission.</p>
+            <img src="./Martian.jpg" alt="The Martian">
+            <p class="spoiler-title">The Spoiler:</p>
+            <p class="spoiler-text">Mark Watney, Left For Dead On Mars, Not Only Survives But Finds A Way To Grow Food On The Barren Planet, Proving The Resilience Of The Human Spirit.</p>
+            <p class="fun-fact">Fun Fact:</p>
+            <p>The novel and film were praised for their scientific accuracy, with NASA even consulting with the author, Andy Weir, to determine the feasibility of some of the survival techniques depicted.</p>
+        </li>
+    </ul>
+    <footer>
+        <p>&copy; 2024 Dhruv's Movie Rankings. All rights reserved.</p>
+    </footer>
+</body>
+</html>
